@@ -1,6 +1,7 @@
 #!/bin/bash
 # 保存镜像为 tar 文件
 IMAGES=(
+  "docker.m.daocloud.io/nacos/nacos-server:v2.5.1"
   "docker.m.daocloud.io/busybox"
   "docker.m.daocloud.io/percona/fluentbit:4.0.1"
   "docker.m.daocloud.io/percona/haproxy:2.8.15"
